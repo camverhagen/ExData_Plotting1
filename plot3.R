@@ -1,3 +1,5 @@
+library(data.table)
+
 ##Check for download directory
 if(!file.exists("data")) {
   dir.create("data")
